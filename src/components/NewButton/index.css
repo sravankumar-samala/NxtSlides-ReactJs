@@ -1,0 +1,23 @@
+.button-container {
+  width: var(--panel-w);
+}
+.new-slide-btn {
+  width: 82%;
+  margin: 0 auto 1em;
+  border: none;
+  outline: none;
+  background-color: rgb(156, 214, 233);
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #0f172a;
+}
+.new-slide-btn img {
+  width: 12px;
+}

@@ -1,0 +1,35 @@
+:root {
+  --panel-w: max(25%, 25ch);
+  --panel-h: calc(100vh - 135px);
+}
+.main-container {
+  min-height: 100vh;
+  overflow: hidden;
+  background-color: rgb(244, 244, 248);
+}
+
+/* header styles  */
+.slides-header {
+  background-color: lightblue;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.slides-header h1 {
+  margin-block: 0;
+  font-weight: 500;
+  color: #075dc0;
+}
+.slides-header img {
+  max-width: 40px;
+}
+.container {
+  padding: clamp(1em, 2vw, 2em);
+  padding-bottom: 0;
+}
+
+.slides-container {
+  display: flex;
+}

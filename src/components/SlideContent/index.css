@@ -1,0 +1,45 @@
+/* slide content box styles  */
+.slide-content {
+  flex-grow: 1;
+  display: grid;
+  padding-block: clamp(1em, 1.5vw, 2em);
+  padding-inline: 0.7em 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/nxt-slides-bg.png ');
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Bree Serif';
+}
+
+.content p {
+  margin-block: 0.4em;
+}
+
+.content input {
+  border: none;
+  outline: none;
+  background-color: rgb(181, 215, 226);
+  /* border: 1px solid rgba(0, 0, 0, 0.5); */
+  border-radius: 5px;
+  padding: 0.3em;
+  text-align: center;
+}
+.heading-input,
+.content h1 {
+  color: #075dc0;
+  font-size: clamp(1.7rem, 3vw, 2.7rem);
+  font-weight: 600;
+}
+.description-input,
+.content p {
+  font-size: clamp(1.1rem, 2vw, 2rem);
+  font-weight: 500;
+}
